@@ -1,7 +1,7 @@
 import commands
 import sys
 def prompt():
-    choice=int(input("1.add 2.divide 3.subtract 4.multiply 5.quit"))
+    choice=int(input("1.add 2.divide 3.subtract 4.multiply 5.linear equations"))
     match choice:
         case 1:
             commands.addition_prompt()
@@ -15,5 +15,6 @@ def prompt():
             commands.lineareq()
 while True:
     prompt()            
+
 
 
