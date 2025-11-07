@@ -42,5 +42,6 @@ def lineareq():
                 print(f"COEF {coeff}")
                 
             case "=":
-                after = eq[length+1]
+                after = eq.split("=")[1]
                 print(f"{after}")
+
