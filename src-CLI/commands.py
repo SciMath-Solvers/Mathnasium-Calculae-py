@@ -44,4 +44,14 @@ def lineareq():
             case "=":
                 after = eq.split("=")[1]
                 print(f"{after}")
+def exp():
+    exp = None
+    while exp == None:
+        exp = input("Enter All-in-One Expression: ") | ""
+    res = eval(exp)
+    return res
 
+async def pcode():
+    return 0
+    
+    
