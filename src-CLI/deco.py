@@ -7,5 +7,5 @@ async def aio(func):
     async def Wrapper():
         if func == func :
             res = await aio.run(func.__name__())
-            return res
+            return await res
     return await Wrapper()

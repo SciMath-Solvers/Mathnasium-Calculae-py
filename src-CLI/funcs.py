@@ -54,8 +54,9 @@ def exp():
 async def pcode():
     return await 0
 
-def Text(ctx):
+def Text(ctx)->None:
     print(ctx)
 
-def Choice():
-    opt = input("")
+def Choice()->int:
+    opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Linear Equations \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
+    return int(opt)

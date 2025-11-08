@@ -1,6 +1,6 @@
 # Module Imports
 import asyncio as aio
-import sys
+from goto import with_goto
 
 # File imports
 from deco import aio
@@ -8,9 +8,11 @@ import app as _
 import funcs as cmd
 
 
+
+@with_goto
 @aio
 async def main()->int:
-    choice = int(input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Linear Equations \n6. All-in-One (Includes CAS) \n7. Exit \n8. About"))
+
     match choice:
         case 1:
             cmd.addition_prompt()
@@ -26,10 +28,14 @@ async def main()->int:
             cmd.exp()
         case 7:
             return await print(f"Proccess Completed with Return Code: {cmd.pcode()}")
+            goto .end
         case 8:
             _.App.Info()
     print(f"Proccess Completed with Return Code: {cmd.pcode()}")
     input()
+    
+    goto .start
+    label .end
     
 
 
