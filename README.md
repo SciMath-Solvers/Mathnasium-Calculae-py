@@ -6,10 +6,10 @@ Requirements:
 > -------or--------  
 >
 > PyVM  
->> a Python ByteCode runner for .NET
+>> A ByteCode runner for .NET That Interprets Python!
 
 
-> NOTE:  
-PyVM is Owned by @PhysForm as of 11/8/2025
+> __NOTE__  
+PyVM is Owned by @PhysForm as of 11/8/2025  
 PyVM runs on .NET Runtime and Windows Machines!
 
