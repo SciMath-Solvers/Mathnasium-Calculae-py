@@ -1,7 +1,7 @@
 import commands
-import sys
-def prompt():
-    choice=int(input("1.add 2.divide 3.subtract 4.multiply 5.linear equations"))
+import asyncio as aio
+async def prompt()->void:
+    choice=int(input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Linear Equations \n6. All-in-One (Includes CAS)"))
     match choice:
         case 1:
             commands.addition_prompt()
@@ -13,8 +13,9 @@ def prompt():
             commands.multiply_prompt()
         case 5:
             commands.lineareq()
-while True:
-    prompt()            
-
+        case 6: 
+            exp = Input("Your Expression: ")
+            res = eval(exp)
+            print(f'Your All-in-One Expression has Simplified into: {res}')
 
 
