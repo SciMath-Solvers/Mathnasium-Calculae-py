@@ -1,7 +1,12 @@
-import commands as cmd
+# Module Imports
 import asyncio as aio
+import sys
+
+# File imports
 from deco import aio
 import app as _
+import funcs as cmd
+
 
 @aio
 async def main()->int:
@@ -20,9 +25,12 @@ async def main()->int:
         case 6: 
             cmd.exp()
         case 7:
-            return
+            return await print(f"Proccess Completed with Return Code: {cmd.pcode()}")
         case 8:
             _.App.Info()
-    return await print(f"Proccess Completed with Return Code: {cmd.pcode()}")
+    print(f"Proccess Completed with Return Code: {cmd.pcode()}")
+    input()
+    
+
 
 

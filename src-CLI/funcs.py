@@ -52,6 +52,10 @@ def exp():
     return res
 
 async def pcode():
-    return 0
-    
-    
+    return await 0
+
+def Text(ctx):
+    print(ctx)
+
+def Choice():
+    opt = input("")

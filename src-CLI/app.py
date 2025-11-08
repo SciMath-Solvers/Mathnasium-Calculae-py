@@ -8,7 +8,7 @@ class App:
         print("Repository Owner and Manager: @PhysForm (Owner of Scimath)")
         print("GitHub Repository Link: https://github.com/SciMath-Solvers/Mathnasium-Calculae-py/tree/main")
         print("Language: Python3")
-        print("Type: CLI")
+        print("Type: CLI (Console Line Interface)")
         input("Type Anything To Exit: ")
 
 App.Info()
