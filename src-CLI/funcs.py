@@ -26,24 +26,7 @@ def multiply_prompt():
     a = int(input(">_< *_?\n"))
     b = int(input(f"{a} * >_<?\n"))
     print(f"= {a / b}")
-def lineareq():
-    """solves basic linears
-    """
-    eq = input("enter equation,format in x + b = c\nex x + 1 = 9\n")
-    print(eq)
-    length = -1
-    for letter in eq:
-        length+=1
-        match letter:
-            case "x":
-                
-                
-                coeff=eq.split("x")[0]
-                print(f"COEF {coeff}")
-                
-            case "=":
-                after = eq.split("=")[1]
-                print(f"{after}")
+        
 def exp():
     exp = None
     while exp == None:
@@ -58,5 +41,6 @@ def Text(ctx)->None:
     print(ctx)
 
 def Choice()->int:
-    opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Linear Equations \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
+    opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
+
     return int(opt)
