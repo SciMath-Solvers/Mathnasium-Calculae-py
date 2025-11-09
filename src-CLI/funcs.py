@@ -46,9 +46,13 @@ def lineareq():
                 for letter in after_x:
                     match letter: 
                         case "+":
-                            print("x")
+                            
                             after_x=int(after_x.split("+")[1])
                             print(int(after_equal)-after_x)
+                        case "-":
+                    
+                            after_x=int(after_x.split("-")[1])
+                            print(int(after_equal)+after_x)
                       
 def exp():
     #eval does not work
@@ -68,6 +72,7 @@ def Choice()->int:
     opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
 
     return int(opt)
+
 
 
 
