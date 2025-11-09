@@ -23,7 +23,7 @@ async def main()->int:
         case 4:
             cmd.multiply_prompt()
         case 5:
-            cmd.lineareq()
+            print("not fucntional anymore")
         case 6: 
             cmd.exp()
         case 7:
@@ -37,6 +37,7 @@ async def main()->int:
     goto .start
     label .end
     
+
 
 
 
