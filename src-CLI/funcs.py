@@ -32,17 +32,24 @@ def lineareq():
     """
     eq = input("enter equation,format in x + b = c\nex x + 1 = 9\n")
     print(eq)
-    length = -1
     for letter in eq:
-        length+=1
         match letter:
             case "x":
                 eq.replace(" ","")
                 coeff=eq.split("x")[0]
                 print(f"COEF {coeff}")
                 after_x=eq.split("x")[1]
-                afterequal = after_x.split("=")[1]
+                after_equal = after_x.split("=")[1]
                 after_x= eq.split("x")[0]
+                print(after_x)
+                print(after_equal)
+                for letter in after_x:
+                    match after_x:
+                        case "+":
+                            after_x=int(after_x.split("+"))
+                            print(int(after_equal)-after_x)
+                            
+                    
                 
                       
 def exp():
@@ -63,5 +70,6 @@ def Choice()->int:
     opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
 
     return int(opt)
+
 
 
