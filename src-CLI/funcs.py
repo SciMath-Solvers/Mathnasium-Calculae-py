@@ -41,7 +41,8 @@ def lineareq():
                 coeff=eq.split("x")[0]
                 print(f"COEF {coeff}")
                 after_x=eq.split("x")[1]
-                after = after_x.split("=")[1]
+                afterequal = after_x.split("=")[1]
+                after_x= eq.split("x")[0]
                 
                       
 def exp():
@@ -62,4 +63,5 @@ def Choice()->int:
     opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
 
     return int(opt)
+
 
