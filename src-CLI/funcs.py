@@ -53,7 +53,7 @@ def lineareq():
                 
                       
 def exp():
-    """doesnt work"""
+    #eval does not work
     exp = None
     while exp == None:
         exp = input("Enter All-in-One Expression: ") | ""
@@ -70,6 +70,7 @@ def Choice()->int:
     opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
 
     return int(opt)
+
 
 
 
