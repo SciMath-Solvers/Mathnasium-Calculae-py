@@ -65,13 +65,19 @@ def exp():
 async def pcode():
     return await 0
 
-def Text(ctx)->None:
+def l(ctx) -> None:
     print(ctx)
+    return None
 
-def Choice()->int:
-    opt = input("1.Add \n2.Divide \n3.Subtract \n4.Multiply \n5.Discontunied \n6. All-in-One (Includes CAS) \n7. Exit \n8. About")
-
-    return int(opt)
+class App:
+    def __init__(self,Info):
+        self.Info = Info
+        Info = f'{Desc()}\n{Version(4319)}\n{Lang()}'
+        return Info
+    def Desc()->str:
+        return "Mathnasium Calculae is a Mathematics Solver for anything with Python"
+    def Version(passwd):
+        return "v1.0.0"
 
 
 
