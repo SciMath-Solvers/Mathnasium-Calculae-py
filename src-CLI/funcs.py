@@ -72,12 +72,16 @@ def l(ctx) -> None:
 class App:
     def __init__(self,Info):
         self.Info = Info
-        Info = f'{Desc()}\n{Version(4319)}\n{Lang()}'
-        return Info
+        Info = f'{Desc()}\n{Version()}\n{Lang()\n{Type()}'
+        l( Info )
     def Desc()->str:
-        return "Mathnasium Calculae is a Mathematics Solver for anything with Python"
-    def Version(passwd):
-        return "v1.0.0"
+        return "Description:\n\tMathnasium Calculae is a Mathematics Solver for anything with Python Terminal"
+    def Version() -> str:
+        return "Version:\n\tv1.0.0"
+    def Lang() -> str:
+        return "Language:\n\tPython\n\tENGLISH (US)"
+    def Type() -> str:
+        return "Type:\n\tCLI (Command-Line Interface)"
 
 
 
