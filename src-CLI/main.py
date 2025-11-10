@@ -1,18 +1,19 @@
 # Module Imports
 import asyncio as aio
-from goto import with_goto
+import sympy as smp
+import scipy as scp
+import numpy as np
 
 # File imports
-from deco import aio
-import app as _
 import funcs as cmd
+from funcs import l
+from funcs import App
 
 
-
-@with_goto
-@aio
 async def main()->int:
-
+    l("-----------Mathnasium Calculae v1.0.0-----------")
+    l("[1] Addition Solver")
+    l("[2] Subtraction Solver") # So on, and so forth...
     match choice:
         case 1:
             cmd.addition_prompt()
@@ -34,9 +35,9 @@ async def main()->int:
     print(f"Proccess Completed with Return Code: {cmd.pcode()}")
     input()
     
-    goto .start
-    label .end
+
     
+
 
 
 
