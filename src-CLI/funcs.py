@@ -1,4 +1,4 @@
-
+import sympy as smp
 #basic math
 
 
@@ -53,7 +53,8 @@ def lineareq():
                     
                             after_x=int(after_x.split("-")[1])
                             print(int(after_equal)+after_x)
-                      
+def solve_expression(expr: str):
+    pass
 def exp():
     #eval does not work
     exp = None
@@ -82,6 +83,7 @@ class App:
         return "Language:\n\tPython\n\tENGLISH (US)"
     def Type() -> str:
         return "Type:\n\tCLI (Command-Line Interface)"
+
 
 
 
