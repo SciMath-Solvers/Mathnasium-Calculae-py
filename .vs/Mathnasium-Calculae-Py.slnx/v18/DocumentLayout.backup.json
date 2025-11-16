@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src-CLI\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\funcs.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src-CLI\\funcs.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\main.py",
+              "RelativeDocumentMoniker": "src-CLI\\main.py",
+              "ToolTip": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\main.py",
+              "RelativeToolTip": "src-CLI\\main.py",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-16T17:39:32.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -30,15 +52,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.py",
-              "DocumentMoniker": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\main.py",
-              "RelativeDocumentMoniker": "src-CLI\\main.py",
-              "ToolTip": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\main.py",
-              "RelativeToolTip": "src-CLI\\main.py",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBkAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-16T17:58:17.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "funcs.py",
+              "DocumentMoniker": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\funcs.py",
+              "RelativeDocumentMoniker": "src-CLI\\funcs.py",
+              "ToolTip": "C:\\Users\\nanda\\source\\repos\\SciMath-Solvers\\Mathnasium-Calculae-Py\\src-CLI\\funcs.py",
+              "RelativeToolTip": "src-CLI\\funcs.py",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-16T17:39:32.007Z",
+              "WhenOpened": "2025-11-16T17:53:23.84Z",
               "EditorCaption": ""
             }
           ]

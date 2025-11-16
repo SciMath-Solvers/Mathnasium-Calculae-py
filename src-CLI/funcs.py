@@ -1,25 +1,9 @@
 import sympy as smp
+import os 
 #basic math
 
 
-def addition_prompt():
-    """Addition.
-    """
-    a = int(input(">_< +_?\n"))
-    b = int(input(f"{a} + >_<?\n"))
-    print(f"= {a + b}")
-def subtraction_prompt():
-    """Subtraction.
-    """
-    a = int(input(">_< -_?\n"))
-    b = int(input(f"{a} - >_<?\n"))
-    print(f"= {a - b}")
-def division_prompt():
-    """Division.
-    """
-    a = int(input(">_< /_?\n"))
-    b = int(input(f"{a} / >_<?\n"))
-    print(f"= {a / b}")
+
 def multiply_prompt():
     """Multiplication.
     """
@@ -71,22 +55,11 @@ def l(ctx) -> None:
     return None
 
 class App:
-    def __init__(self,Info):
-        self.Info = Info
-        Info = f'{Desc()}\n{Version()}\n{Lang()\n{Type()}'
+    def Info(self):
+        Info = f'{"Description:\n\tMathnasium Calculae is a Mathematics Solver for anything with Python Terminal"}\n{"Version:\n\tv1.0.0"}\n{"Language:\n\tPython\n\tENGLISH (US)"}\n{"Type:\n\tCLI (Command-Line Interface)"}'
         l( Info )
-    def Desc()->str:
-        return "Description:\n\tMathnasium Calculae is a Mathematics Solver for anything with Python Terminal"
-    def Version() -> str:
-        return "Version:\n\tv1.0.0"
-    def Lang() -> str:
-        return "Language:\n\tPython\n\tENGLISH (US)"
-    def Type() -> str:
-        return "Type:\n\tCLI (Command-Line Interface)"
 
-
-
-
-
+def cls():
+    os.system("clear")
 
 
