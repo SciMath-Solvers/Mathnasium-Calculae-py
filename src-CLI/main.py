@@ -12,15 +12,15 @@ from funcs import App
 
 running = True
 
-async def main() -> None:
+def main() -> None:
     while running:
         l("-----------Mathnasium Calculae v1.0.0-----------")
-        l("[1] Addition Solver")
-        l("[2] Subtraction Solver") # So on, and so forth...
-        l("[3] Division Solver")
-        l("[4] Multiplication Solver")
+        l("[1] Addition Solver (2 Inputs)")
+        l("[2] Subtraction Solver (2 Inputs)") # So on, and so forth...
+        l("[3] Division Solver (2 Inputs)")
+        l("[4] Multiplication Solver (2 Inputs)")
         l("[5] WIP")
-        l("[6] Expression Solver")
+        l("[6] Expression Solver (2 Inputs)")
         l("[7] Exit")
         mmc = input("Choice: ")
         match mmc:
@@ -28,27 +28,33 @@ async def main() -> None:
                 x = input("X? ")
                 y = input("Y? ")
                 l(f"Value {x} + Value {y} Returns: {x + y}")
+                break
             case 2:
                 x = input("X? ")
                 y = input("Y? ")
                 l(f"Value {x} - Value {y} Returns: {x - y}")
+                break
             case 3:
-                cmd.division_prompt()
+                x =  input("X? ")
+                y = input("Y? ")
+                l(f"Value {x} / Value {y} Returns: {x / y}")
+                break
             case 4:
                 cmd.multiply_prompt()
+                break
             case 5:
                 print("Work In Progress")
+                input()
+                break
             case 6: 
                 cmd.exp()
+                break
             case 7:
                 running = False
             case 8:
                 App.Info()
+            case _:
+                l("Invalid Option Selected, Please Try Again.")
         input()
-    return await l(f"Proccess Completed with Return Code: {cmd.pcode()}")
 
-
-
-
-
-
+aio.run(main())
