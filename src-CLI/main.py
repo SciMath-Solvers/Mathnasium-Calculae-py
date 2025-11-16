@@ -3,6 +3,7 @@ import asyncio as aio
 import sympy as smp
 import scipy as scp
 import numpy as np
+import matplotlib as mpl
 
 # File imports
 import funcs as cmd
@@ -11,7 +12,7 @@ from funcs import App
 
 running = True
 
-async def main()->int:
+async def main() -> None:
     while running:
         l("-----------Mathnasium Calculae v1.0.0-----------")
         l("[1] Addition Solver")
@@ -21,11 +22,16 @@ async def main()->int:
         l("[5] WIP")
         l("[6] Expression Solver")
         l("[7] Exit")
-        match choice:
+        mmc = input("Choice: ")
+        match mmc:
             case 1:
-                cmd.addition_prompt()
+                x = input("X? ")
+                y = input("Y? ")
+                l(f"Value {x} + Value {y} Returns: {x + y}")
             case 2:
-                cmd.subtraction_promptt
+                x = input("X? ")
+                y = input("Y? ")
+                l(f"Value {x} - Value {y} Returns: {x - y}")
             case 3:
                 cmd.division_prompt()
             case 4:
